@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>My portfolio website</title>
+    <!-- Adding favicon for older and modern browsers,
+        It is best to add favicon to the main folder, 
+        I used an only ico converter for best result,
+        Do not forget to clear you cache to see the changes -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- introduction -->
+    <header class="grid-system-2 w-900 padding">
+        <section class="align-center">
+            <h1 class="medium-spacing">Hello, I am</h1>
+            <h1 class="large">DAC</h1>
+           <!-- <p class="justify">That large class above is only suitable for short names/nicknames. If you want to display
+                your full name there, consider using the "medium-spacing" and "colorful-letter" classes instead, to
+                maintain responsiveness.</p> -->
+        </section>
+        <section class="center align-center">
+            <img class="header-img max-width max-height" src="assets/IMG_0296.JPG" alt="profile-picture">
+        </section>
+    </header>
+
+
+    <!-- quote -->
+    <article class="baby-pink">
+        <p class="quote uppercase">I dream and i create</p>
+        <p>My creativity starts with a vision—a mood, a light, a feeling—and I use my camera to bring that vision to life.</p>
+    </article>
+
+    <!-- about me -->
+    <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/IMG_2185.jpg" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="bold">About me</p>
+            <p>I'm 29 years old and photography is more than just a hobby to me — its how I connect with the world.</p>
+            <p>I love going out, walking through streets, nature, or hidden corners of the city, and capturing what catches my eye. 
+                For me, its all about the feeling in a moment—the light, the colors, the raw details that tell a story.</p>
+            <p>Every photo I take begins with something simple: a curiosity, a dream, a mood. I dont stage life—I chase it, frame by frame. 
+                Whether it's a quiet street at sunset or a burst of energy in a crowded place, I try to turn what I see into something that others can feel. </p>
+            <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p>
+        </section>
+    </section>
+
+    <!-- skills -->
+    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
+    <section>
+        <h3 class="main-title center padding">Skills</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column">
+            <p class="padding-bottom">Technical skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>html</p>
+                        <span class="progress-bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <p>css</p>
+                        <span class="progress-bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <p>javascript</p>
+                        <span class="progress-bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <p>php, mysql</p>
+                        <span class="progress-bar"><span class="php"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="column">
+            <p class="padding-bottom">Professional skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>photography</p>
+                        <span class="progress-bar"><span class="comm-adapt"></span></span>
+                    </li>
+                    <li>
+                        <p>communication</p>
+                        <span class="progress-bar"><span class="team-player"></span></span>
+                    </li>
+                    <li>
+                        <p>problem solving</p>
+                        <span class="progress-bar"><span class="problem-solving"></span></span>
+                    </li>
+                    <li>
+                        <p>patiente</p>
+                        <span class="progress-bar"><span class="open-minded"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </section>
+    </section>
+
+    <!-- Projects -->
+    <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
+    <section>
+        <h3 class="main-title center padding">Projects I am currently working on</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="assets/IMG_1206.jpg" alt="project1">
+            <p class="padding bold center">Nature Through My Eyes</p>
+            <p></p>
+            <p>This project is a personal journey into the quiet beauty of nature. 
+                Through my lens, I try to capture the details that often go unnoticed—the way light filters through leaves, the textures of earth and stone, the stillness of water, or the movement of wind in grass. <br>It's not just about landscapes it's about the emotion in natural moments.</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/IMG_0698.jpg" alt="project2">
+            <p class="padding bold center">Lines and Stories</p>
+            <p></p>
+            <p>This project is my way of exploring the beauty of architecture—not just in buildings, but in the shapes, lines, textures, and rhythms that define the spaces around us. I’m drawn to the balance between structure and light, symmetry and imperfection, old and new.
+
+                Through my lens, I capture the character of cities, the quiet details of design, and the way architecture interacts with its environment.
+                 Each photo is a moment where structure becomes art—and where space tells its own story.</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+
+    </section>
+
+    <!-- contact me -->
+    <!-- Five logo can be in one row, and if it still not enough, you can create another row, buy doubleing the "box-contact" section -->
+    <section id="contact-me" class="grid-system-2 w-900 padding">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/Contact-me-img.png" alt="contact-me-illustration">
+        </section>
+        <section class="margin-auto align-center">
+            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
+            <section class="box-contact margin-auto padding-top">
+                <span>
+                    <a href="https://www.linkedin.com/in/daniel-ataide-costa/" target="_blank"><img class="logo" src="assets/linkedin.png"
+                            alt=""></a>
+                </span>
+                <span>
+                   
+                </span>
+                <span>
+                 
+                </span>
+            </section>
+        </section>
+    </section>
+
+    <!-- special thanks -->
+    <!-- Here you can see the free resources I've used for the logos and illustrations. Do not forget to give credit to the creators of the free stuffs use may use additionally -->
+    
+
+    <!-- footer -->
+    <!-- waits for you to take over! -->
+    <footer>DAC</footer>
+</body>
+
+</html>
